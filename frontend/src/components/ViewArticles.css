@@ -1,0 +1,14 @@
+.articles-container {
+    padding: 20px;
+  }
+  
+  .article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .article h2 {
+    margin-top: 0;
+  }
+  

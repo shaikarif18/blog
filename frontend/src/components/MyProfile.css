@@ -1,0 +1,25 @@
+/* MyProfile.css */
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .profile-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .profile-table td:first-child {
+    font-weight: bold;
+    width: 120px; /* Adjust width as needed */
+  }
+  
+  .profile-table td:nth-child(2) {
+    padding-left: 20px; /* Add some space between label and value */
+  }
+  

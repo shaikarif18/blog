@@ -1,0 +1,55 @@
+.home-container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 60px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 15px 150px rgba(0, 0, 0, 0.5);
+}
+
+.background-image {
+  background-image: url('https://www.creativemotions.it/wp-content/uploads/2020/05/Come-creare-un-blog-1024x538.jpg'); /* Replace 'path_to_your_image.jpg' with the actual path to your background image */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(3px);
+}
+
+.content {
+  position: relative;
+  z-index: 1; 
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.content button {
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  background-color: #03ad63;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #03ad63;
+}
